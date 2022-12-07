@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    cursor: cell;
+    list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	font-family: 'Caveat', cursive;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 20px;
+}
+
+/* FONT AWESOME */
+.bag{
+	font-family: sans-serif !important;
+}
+
+/* SECTION - format for all pages using the same class because styling isn't as important {KISS} */
+.section{
+	height: 100vh;         /* fit screen size */
+	background: url(https://i.postimg.cc/ncNF7fQ0/seshdesktop.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    text-align: center;
+	color:rgb(255, 255, 255);
+}
+.section-text{
+    position: absolute;     /* places button over image */
+    margin-top: 38vh;
+    width: 100%;
+}
+.section-text2{		
+    position: absolute;     /* places button over image */
+	top:100px;
+    width: 100%;
+}
+
+.section-button{
+	background: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+
+/* ADMIN BUTTONS */
+.edit-btn{
+	background-color: rgb(67, 64, 64);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	width: fit-content;
+}
+.edit-btn:hover{
+	background-color:rgb(234, 173, 183);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	width: fit-content;
+	transition: 2s;
+	transform: translateX(-4px);
+}
+.delete-btn{
+	background-color: rgb(67, 64, 64);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	width: fit-content;
+}
+.delete-btn:hover{
+	background-color:rgba(255, 0, 43, 0.62);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	width: fit-content;
+	transition: 2s;
+	transform: translateX(-4px);
+	
+}
+.sort-btn{
+	background-color: rgb(67, 64, 64);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	/* font-size: 16px; */
+	width: fit-content;
+
+	text-align: center;
+	display: flex;
+	justify-content: center;  
+	align-items: center;  
+	width:fit-content;
+	margin:auto;
+	margin-bottom: 10px;	
+}
+.sort-btn2{
+	background-color: rgb(67, 64, 64);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	/* font-size:16px; */
+	width: fit-content;
+
+	text-align: center;
+	display: flex;
+	justify-content: center;  
+	align-items: center;  
+	width:fit-content;
+	margin:auto;
+	margin-bottom: 20px;	
+}
+.add-btn{
+	background-color: rgb(24, 169, 41);
+	border: none;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	/* font-size:16px; */
+	width: fit-content;
+
+	text-align: center;
+	display: flex;
+	justify-content: center;  
+	align-items: center;  
+	width:fit-content;
+	margin:auto;
+	margin-bottom: 20px;
+
+}
+/* ADMIN TABLE */
+@media screen and (max-width:391px) {
+	.col-2{
+		font-size: 12px;
+	}
+	
+}
+@media screen and (max-width:317px) {
+	.col-2{
+		font-size: 8px;
+	}
+	
+}
